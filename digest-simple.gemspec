@@ -2,11 +2,9 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
-require 'digest/simple'
-
 Gem::Specification.new do |spec|
   spec.name          = "digest-simple"
-  spec.version       = Digest::Simple::VERSION
+  spec.version       = "1.1.0"
   spec.authors       = ["ksss"]
   spec.email         = ["co000ri@gmail.com"]
   spec.summary       = %q{Digest::Simple is a class that minimun implementation for non block message digest.}

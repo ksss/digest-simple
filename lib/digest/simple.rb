@@ -2,8 +2,6 @@ require 'digest'
 
 module Digest
   class Simple < Class
-    VERSION = "2.0.0"
-
     def initialize
       @buffer = ""
     end
